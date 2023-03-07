@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <gmp.h>
 #include<stdlib.h>
-#define BASE 16
+#define BASE 10
 
 int main(int argc, char **argv) {
     FILE *file;
