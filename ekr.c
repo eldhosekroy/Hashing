@@ -55,16 +55,15 @@ int main(int argc, char **argv) {
 	    printf("%c",out);
 	    i++;
         }
-	if(i==20){
+	if(i==30){
 	break;
 	}
         
     }
-
+    printf("\n");
     free(buffer);
     mpz_clear(hash_value);
     mpz_clear(hash_offset);
     fclose(file);
     return 0;
 }
-
